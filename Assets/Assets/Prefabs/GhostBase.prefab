@@ -220,6 +220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2444833495507769415}
   - component: {fileID: 6543378434369854136}
+  - component: {fileID: 8953240181198187201}
   m_Layer: 7
   m_Name: Eyes
   m_TagString: Untagged
@@ -297,6 +298,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8953240181198187201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6083683052628188970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83051c6f5b0f9ab428d4d270eb65a50f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Up: {fileID: 3989620984431022155, guid: 076fc432832a23044a500f08242feee4, type: 3}
+  Down: {fileID: 390626384081808141, guid: c310e5817abc2254f99133ef0114bad8, type: 3}
+  Left: {fileID: 1496437616492063381, guid: 68f3f6952fabda34c8393e065f01a8bc, type: 3}
+  Right: {fileID: -5514043239329054092, guid: 61ed3ddf26627f348b37f8f559b470b1, type: 3}
 --- !u!1 &7291022516988153223
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,6 +466,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   durations: 0
+  insideTransform: {fileID: 0}
+  outsideTransform: {fileID: 0}
 --- !u!114 &8487854353772583018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -488,6 +507,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   durations: 8
+  body: {fileID: 3403324649709179796}
+  eyes: {fileID: 6543378434369854136}
+  blue: {fileID: 3258867397358363633}
+  white: {fileID: 2432553739892660576}
 --- !u!1 &7590793476354438786
 GameObject:
   m_ObjectHideFlags: 0
